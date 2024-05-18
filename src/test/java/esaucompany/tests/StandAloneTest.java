@@ -21,7 +21,7 @@ public class StandAloneTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String productName = "ZARA COAT 3";
-		
+		//new comments are added
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
